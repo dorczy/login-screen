@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+:root {
+    --gray: #dbdbdb;
+    --pink: #ffc1d0;
+    --dark-pink: #f0b9c7;
+    --white: #FFFFFF;
+}
+
+.myIcon {
+    background-color: var(--pink);
+    color: var(--white);
+    font-size: 4rem;
+    border-radius: 10px;
+    width: 6rem;
+    height: 6rem;
+    font-weight: 900;
+    padding-top: .5rem;
+    font-family: 'Alex Brush', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px var(--gray);
+}
+
+#email {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#password {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.btn-primary {
+    background-color: var(--pink);
+    border: var(--pink);
+    box-shadow: 1px 1px 10px var(--gray);
+}
+.btn-primary:hover {
+    background-color: var(--dark-pink);
+    border: var(--dark-pink);
+}
